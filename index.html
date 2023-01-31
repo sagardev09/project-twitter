@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Twitter</title>
+  </head>
+  <body>
+    <!-- Main Page -->
+
+    <section class="Main-page">
+      <div class="flex">
+        <div
+          class="left bg-blue-500 h-[970px] w-[930px] text-white font-semibold text-xl"
+        >
+          <div class="left-content mt-[400px] ml-72">
+            <div class="flex py-4">
+              <i class="fa-solid fa-magnifying-glass mr-5"></i>
+              <h3>Find Your interset</h3>
+            </div>
+            <div class="flex py-4">
+              <i class="fa-solid fa-users mr-5"></i>
+              <h3>Explore what people are talking about</h3>
+            </div>
+            <div class="flex py-4">
+              <i class="fa-solid fa-comment mr-5"></i>
+              <h3>Join the people</h3>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-content">
+            <form class="flex px-5 py-5 ml-48 mt-6 space-x-5">
+              <input
+                class="border border-1 border-gray-400 rounded-md py-1 px-2"
+                type="text"
+                placeholder="Phone,email or username"
+              />
+              <div class="flex relative">
+                <input
+                  class="border border-1 border-gray-400 rounded-md py-1 px-2"
+                  type="password"
+                  placeholder="Password"
+                />
+                <div class="">
+                  <p
+                    class="absolute top-11 right-[116px] cursor-pointer text-sm text-gray-500 hover:text-black"
+                  >
+                    Forgot password?
+                  </p>
+                </div>
+              </div>
+              <button class="bg-blue-600 py-2 px-5 rounded-lg text-white">
+                Log in
+              </button>
+            </form>
+            <div
+              class="middle-content ml-[220px] mt-[250px] mr-9 text-2xl space-y-3"
+            >
+              <i class="fa-brands fa-twitter text-blue-700 text-3xl"></i>
+              <h3 class="font-bold">Explore what's happening in the world</h3>
+              <p class="py-2 text-lg">Join twitter today</p>
+              <div class="flex flex-col space-y-3">
+                <button
+                  class="bg-blue-600 py-2 px-5 rounded-lg text-white font-semibold text-sm hover:bg-blue-700"
+                >
+                  Sign Up
+                </button>
+                <button
+                  class="bg-slate-100 py-2 px-5 rounded-lg text-black font-semibold text-sm border-1 border border-blue-400 hover:bg-blue-700 hover:text-white"
+                >
+                  Log in
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-slate-100">
+        <footer class="py-5">
+          <ul class="flex space-x-10 justify-center items-end">
+            <li class="hover:underline underline-offset-4">
+              <a href="#">About</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Blog</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Help Center</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Terms</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Apps</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Settings</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Contact</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Status</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Brand</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">Developers</a>
+            </li>
+            <li class="hover:underline underline-offset-4">
+              <a href="#">&copy; 2023 twitter</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <!-- End of Main page -->
+
+    <!-- Log in page -->
+
+    <section class="Login page hidden">
+      <nav>
+        <ul class="flex justify-center text-lg bg-slate-100 drop-shadow-md">
+          <li
+            class="py-6 px-2 hover:underline underline-offset-8 hover:decoration-blue-600 hover:decoration-2"
+          >
+            <a href="#"
+              ><i class="fa-brands fa-twitter text-blue-500 px-3"> </i>Home</a
+            >
+          </li>
+          <li
+            class="py-6 px-2 mr-96 hover:underline underline-offset-8 hover:decoration-blue-600 hover:decoration-2"
+          >
+            <a href="#">About</a>
+          </li>
+          <li class="py-6 px-2 ml-96">
+            <a href="#">Language: English</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="ml-96 mr-96 bg-slate-100 mt-3 rounded-t-md">
+        <div class="login py-10 px-20 space-y-8">
+          <h1 class="text-2xl font-sans font-semibold">Log in to Twitter</h1>
+          <form>
+            <div class="flex flex-col w-fit space-y-6">
+              <input
+                class="px-6 py-2 border border-1 rounded-lg border-gray-400"
+                type="text"
+                placeholder="Phone,email or username"
+              />
+              <input
+                class="px-5 py-2 border border-1 border-gray-400 rounded-lg"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="space-y-10 space-x-4">
+              <button
+                class="bg-blue-500 px-4 py-2 rounded-xl text-white hover:bg-blue-600 font-semibold"
+              >
+                Log in
+              </button>
+              <input type="checkbox" id="check" />
+              <label for="check">Remember me</label>
+              <a class="text-blue-500 hover:text-blue-600" href="#"
+                >Forgot password?</a
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer class="ml-96 mr-96 bg-slate-200 rounded-b-md">
+        <div class="py-10 px-20">
+          <p>
+            New to twitter?
+            <a
+              class="text-blue-500 hover:underline hover:underline-offset-4 hover:text-blue-600"
+              href="#"
+              >Sign up now >></a
+            >
+          </p>
+          <p>
+            Already using Twitter via text message?
+            <a
+              class="text-blue-500 hover:underline hover:underline-offset-4 hover:text-blue-600"
+              href="#"
+              >Activate your account >></a
+            >
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- End of log in page -->
+
+    <!-- Feed Page -->
+
+    <section class="Feed page hidden">
+      <nav class="flex py-3 bg-slate-50 justify-center shadow-lg w-full fixed">
+        <div class="mx-10 space-x-10 text-2xl cursor-pointer">
+          <a class="" href="#"
+            ><i class="fa-solid fa-house text-blue-500"></i
+          ></a>
+          <a href="#"><i class="fa-solid fa-hashtag text-slate-500"></i></a>
+          <a href="#"><i class="fa-solid fa-bell text-slate-500"></i></a>
+          <a href="#"><i class="fa-solid fa-envelope text-slate-500"></i></a>
+        </div>
+        <div class="bg-slate-200 rounded-lg mx-10 px-5">
+          <i class="fa-solid fa-magnifying-glass mx-2 text-gray-700"></i>
+          <input
+            class="bg-slate-200 py-2 px-14 rounded-lg"
+            type="text"
+            placeholder="Search Twitter"
+          />
+        </div>
+        <div class="flex space-x-4 mx-10 cursor-pointer">
+          <div>
+            <img
+              class="w-[40px] h-[40px] rounded-full"
+              src="images/scott-butcher-frANbBmqWJg-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <p class="font-semibold mt-1 text-gray-700">Mary fobes</p>
+          <i class="fa-solid fa-chevron-down mt-2 text-gray-700"></i>
+        </div>
+      </nav>
+      <div class="pt-20">
+        <div class="ml-[400px] mr-[780px] bg-slate-100 rounded-t-md">
+          <div class="flex justify-between py-2 text-xl px-3">
+            <h1 class="font-semibold cursor-pointer">Home</h1>
+            <i class="fa-regular fa-star py-1 text-blue-500 cursor-pointer"></i>
+          </div>
+          <div class="flex justify-between py-4 px-3">
+            <div>
+              <img
+                class="w-[40px] h-[40px] rounded-full cursor-pointer"
+                src="images/scott-butcher-frANbBmqWJg-unsplash.jpg"
+                alt=""
+              />
+            </div>
+
+            <input
+              class="rounded-2xl pl-4 pr-28 outline outline-slate-200"
+              type="text"
+              placeholder="What's happening"
+            />
+            <i class="far fa-image text-2xl text-blue-600 cursor-pointer"></i>
+            <i class="fas fa-camera text-2xl text-blue-600 cursor-pointer"></i>
+            <i
+              class="fa-solid fa-chart-simple text-2xl text-blue-600 cursor-pointer"
+            ></i>
+          </div>
+          <div class="py-3">
+            <div>
+              <hr class="h-[2px] bg-gray-50" />
+              <div class="w-[50px] h-[50px] ml-3 relative">
+                <img
+                  class="w-[50px] h-[50px] rounded-full"
+                  src="images/radu-florin-JyVcAIUAcPM-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="">
+                <div class="flex ml-20 absolute top-[210px] space-x-2">
+                  <h1 class="font-semibold">Helen Brown</h1>
+                  <i class="fas fa-check-circle text-blue-500 mt-1"></i>
+                  <span>@helenbrown 15m</span>
+                </div>
+                <p class="pl-20 pr-4 pb-2 text-sm">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Molestias corporis facilis, magni odio consequatur architecto
+                  libero, ipsum modi suscipit similique sequi iusto hic
+                  reprehenderit temporibus, deleniti illum eum est alias!
+                </p>
+                <div>
+                  <img
+                    class="rounded-xl w-[510px] h-[300px] ml-20"
+                    src="images/chris-stenger-fvJwchRL6xw-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="ml-20 space-x-16 py-1 text-lg">
+                  <i class="fa-regular fa-comment cursor-pointer"></i>
+                  <i class="fa-solid fa-retweet cursor-pointer"></i>
+                  <i class="fa-regular fa-heart cursor-pointer"></i>
+                  <i class="fas fa-share-alt cursor-pointer"></i>
+                </div>
+              </div>
+            </div>
+            <hr class="h-[2px] bg-gray-50" />
+
+            <div class="py-3">
+              <div>
+                <div class="w-[50px] h-[50px] ml-3 relative">
+                  <img
+                    class="w-[50px] h-[50px] rounded-full"
+                    src="images/ehsan-ahmadi-vsWy6nchcOs-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <div class="flex ml-20 absolute top-[680px] space-x-2">
+                    <h1 class="font-semibold">Jane Doe</h1>
+                    <i class="fas fa-check-circle text-blue-500 mt-1"></i>
+                    <span>@janedoe 35m</span>
+                  </div>
+                  <p class="pl-20 pr-4 pb-2 text-sm">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Molestias corporis facilis, magni odio consequatur
+                    architecto libero, ipsum modi suscipit similique sequi iusto
+                    hic reprehenderit temporibus, deleniti illum eum est alias!
+                  </p>
+                  <div>
+                    <img
+                      class="rounded-xl w-[510px] h-[300px] ml-20"
+                      src="images/diego-jimenez-A-NVHPka9Rk-unsplash.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ml-20 space-x-16 py-1 text-lg">
+                    <i class="fa-regular fa-comment cursor-pointer"></i>
+                    <i class="fa-solid fa-retweet cursor-pointer"></i>
+                    <i class="fa-regular fa-heart cursor-pointer"></i>
+                    <i class="fas fa-share-alt cursor-pointer"></i>
+                  </div>
+                </div>
+              </div>
+              <hr class="h-[2px] bg-gray-50" />
+
+              <div class="py-3">
+                <div>
+                  <div class="w-[50px] h-[50px] ml-3 relative">
+                    <img
+                      class="w-[50px] h-[50px] rounded-full"
+                      src="images/albert-dera-ILip77SbmOE-unsplash.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="">
+                    <div class="flex ml-20 absolute top-[1145px] space-x-2">
+                      <h1 class="font-semibold">Albert henry</h1>
+                      <i class="fas fa-check-circle text-blue-500 mt-1"></i>
+                      <span>@alberthenry 1m</span>
+                    </div>
+                    <p class="pl-20 pr-4 pb-2 text-sm">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Molestias corporis facilis, magni odio consequatur
+                      architecto libero, ipsum modi suscipit similique sequi
+                      iusto hic reprehenderit temporibus, deleniti illum eum est
+                      alias!
+                    </p>
+                    <div>
+                      <img
+                        class="rounded-xl w-[510px] h-[300px] ml-20"
+                        src="images/salmen-bejaoui-uXTozY3CcQg-unsplash.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ml-20 space-x-16 py-1 text-lg">
+                      <i class="fa-regular fa-comment cursor-pointer"></i>
+                      <i class="fa-solid fa-retweet cursor-pointer"></i>
+                      <i class="fa-regular fa-heart cursor-pointer"></i>
+                      <i class="fas fa-share-alt cursor-pointer"></i>
+                    </div>
+                  </div>
+                </div>
+                <hr class="h-[2px] bg-gray-50" />
+
+                <div class="py-3">
+                  <div>
+                    <div class="w-[50px] h-[50px] ml-3 relative">
+                      <img
+                        class="w-[50px] h-[50px] rounded-full"
+                        src="images/julian-wan-WNoLnJo7tS8-unsplash.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="">
+                      <div class="flex ml-20 absolute top-[1610px] space-x-2">
+                        <h1 class="font-semibold">Peter parker</h1>
+                        <i class="fas fa-check-circle text-blue-500 mt-1"></i>
+                        <span>@peterparker 1hr</span>
+                      </div>
+                      <p class="pl-20 pr-4 pb-2 text-sm">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Molestias corporis facilis, magni odio consequatur
+                        architecto libero, ipsum modi suscipit similique sequi
+                        iusto hic reprehenderit temporibus, deleniti illum eum
+                        est alias!
+                      </p>
+                      <div>
+                        <img
+                          class="rounded-xl w-[510px] h-[300px] ml-20"
+                          src="images/tj-holowaychuk-1EYMue_AwDw-unsplash.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="ml-20 space-x-16 py-1 text-lg">
+                        <i class="fa-regular fa-comment cursor-pointer"></i>
+                        <i class="fa-solid fa-retweet cursor-pointer"></i>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                        <i class="fas fa-share-alt cursor-pointer"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="h-[2px] bg-gray-50" />
+
+                  <div class="py-3">
+                    <div>
+                      <div class="w-[50px] h-[50px] ml-3 relative">
+                        <img
+                          class="w-[50px] h-[50px] rounded-full"
+                          src="images/houcine-ncib-B4TjXnI0Y2c-unsplash.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="">
+                        <div class="flex ml-20 absolute top-[2075px] space-x-2">
+                          <h1 class="font-semibold">Christian</h1>
+                          <i class="fas fa-check-circle text-blue-500 mt-1"></i>
+                          <span>@christian 12hr</span>
+                        </div>
+                        <p class="pl-20 pr-4 pb-2 text-sm">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Molestias corporis facilis, magni odio
+                          consequatur architecto libero, ipsum modi suscipit
+                          similique sequi iusto hic reprehenderit temporibus,
+                          deleniti illum eum est alias!
+                        </p>
+                        <div>
+                          <img
+                            class="rounded-xl w-[510px] h-[300px] ml-20"
+                            src="images/ujjwal-jajoo-KLFVQgcLoZ8-unsplash.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-20 space-x-16 py-1 text-lg">
+                          <i class="fa-regular fa-comment cursor-pointer"></i>
+                          <i class="fa-solid fa-retweet cursor-pointer"></i>
+                          <i class="fa-regular fa-heart cursor-pointer"></i>
+                          <i class="fas fa-share-alt cursor-pointer"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="follow section bg-slate-100 w-[350px] fixed top-[5rem] left-[1026px] rounded-xl"
+      >
+        <h1 class="font-semibold text-xl py-2 ml-2 px-2">Who to follow</h1>
+        <div class="flex py-3">
+          <div>
+            <img
+              class="w-[50px] h-[50px] rounded-full ml-4"
+              src="images/austin-wade-X6Uj51n5CE8-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="ml-4">
+            <h1 class="font-semibold">Ann Smith</h1>
+            <p>@annsmith</p>
+          </div>
+          <button
+            class="text-blue-500 bg-slate-50 py-1 px-6 mr-3 rounded-2xl ml-20 border border-1 border-blue-400"
+          >
+            Follow
+          </button>
+        </div>
+
+        <div class="flex py-3">
+          <div>
+            <img
+              class="w-[50px] h-[50px] rounded-full ml-4"
+              src="images/alyona-grishina-BBmi4nJjKk8-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="ml-4">
+            <h1 class="font-semibold">Ann Smith</h1>
+            <p>@annsmith</p>
+          </div>
+          <button
+            class="text-blue-500 bg-slate-50 py-1 px-6 rounded-2xl ml-20 border border-1 border-blue-400"
+          >
+            Follow
+          </button>
+        </div>
+
+        <div class="flex py-3">
+          <div>
+            <img
+              class="w-[50px] h-[50px] rounded-full ml-4"
+              src="images/hosein-shirvani-39GcuxM6ehA-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="ml-4">
+            <h1 class="font-semibold">Ann Smith</h1>
+            <p>@annsmith</p>
+          </div>
+          <button
+            class="text-blue-500 bg-slate-50 py-1 px-6 rounded-2xl ml-20 border border-1 border-blue-400"
+          >
+            Follow
+          </button>
+        </div>
+        <div class="text-blue-500 py-3">
+          <p class="ml-4 cursor-pointer py-2">Show more</p>
+        </div>
+        <footer>
+          <ul class="flex space-x-4 bg-white pt-3 text-slate-600">
+            <li class="cursor-pointer hover:underline underline-offset-2">
+              Terms
+            </li>
+            <li class="cursor-pointer hover:underline underline-offset-2">
+              Privacy policy
+            </li>
+            <li class="cursor-pointer hover:underline underline-offset-2">
+              Cookies
+            </li>
+            <li class="cursor-pointer hover:underline underline-offset-2">
+              About
+            </li>
+            <li class="cursor-pointer hover:underline underline-offset-2">
+              More
+            </li>
+          </ul>
+        </footer>
+      </div>
+      <button
+        class="text-white bg-sky-400 py-3 px-8 text-lg rounded-3xl font-semibold fixed top-[970px] left-[1250px]"
+      >
+        <i class="fa-sharp fa-solid fa-feather-pointed"></i> Post
+      </button>
+    </section>
+
+    <!-- End Feed page -->
+  </body>
+</html>
